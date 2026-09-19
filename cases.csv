@@ -1,0 +1,6 @@
+case_id,ip,mask,gateway,interface,issue
+1,192.168.1.10,255.255.255.0,192.168.1.1,up,Normal configuration
+2,192.168.1.20,255.255.255.0,192.168.2.1,up,Wrong gateway
+3,192.168.1.300,255.255.255.0,192.168.1.1,up,Invalid IP
+4,10.0.0.10,255.255.255.0,10.0.0.1,down,Interface down
+5,172.16.1.10,255.255.0.0,172.16.0.1,up,Normal configuration

@@ -1,0 +1,38 @@
+========================================
+Diagnostic Run: 2026-09-19 17:39:48.928627
+========================================
+
+Case 1
+Issue: Normal configuration
+- IP address is valid.
+- Gateway is in the correct network.
+- Interface is UP.
+----------------------------------------
+
+Case 2
+Issue: Wrong gateway
+- IP address is valid.
+- Gateway does not match the network.
+- Interface is UP.
+----------------------------------------
+
+Case 3
+Issue: Invalid IP
+- Invalid IP address.
+- Gateway does not match the network.
+- Interface is UP.
+----------------------------------------
+
+Case 4
+Issue: Interface down
+- IP address is valid.
+- Gateway is in the correct network.
+- Interface is DOWN.
+----------------------------------------
+
+Case 5
+Issue: Normal configuration
+- IP address is valid.
+- Gateway is in the correct network.
+- Interface is UP.
+----------------------------------------
