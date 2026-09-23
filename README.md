@@ -1,53 +1,65 @@
-# NetSage AI
+# 🛡️ NetSage AI
 
-## AI-Assisted Network Troubleshooting and Diagnostic System
+> 🤖 An AI-assisted network diagnostics and analysis system designed to analyze network configuration cases, identify potential issues, and provide structured diagnostic insights for faster troubleshooting.
 
-NetSage AI is a Python-based network troubleshooting system designed to identify common network configuration issues and provide structured diagnostic findings.
+---
 
-## Features
+## 📌 About the Project
 
-- IP address validation
-- Gateway and subnet verification
-- Network interface status checking
-- CSV-based network case dataset
-- Automated diagnostic logging
-- AI-assisted diagnostic prompt
-- Human review and verification workflow
+**NetSage AI** is an intelligent network diagnostics project that combines **Python-based rule analysis** with an **AI-assisted diagnostic approach** to help identify common network configuration and connectivity issues.
 
-## Technologies Used
+The system processes network-related case information and evaluates important parameters such as:
 
-- Python
-- CSV
-- Artificial Intelligence Concepts
-- Cisco Packet Tracer
-- Git and GitHub
-- Visual Studio Code
+- 🌐 IP address configuration
+- 🚪 Default gateway
+- 🎭 Subnet mask
+- 🔌 Interface status
+- 🏷️ VLAN configuration
+- 📡 Network connectivity information
 
-## Project Workflow
+The system then generates structured findings that can help users understand possible configuration problems and perform further verification.
 
-Network Case  
-↓  
-CSV Dataset  
-↓  
-Python Rule Checker  
-↓  
-Diagnostic Findings  
-↓  
-AI Diagnostic Assistant  
-↓  
-Human Review  
-↓  
-Cisco Packet Tracer Verification
+> 💡 NetSage AI is designed as a **diagnostic assistance tool**. Its findings are intended to support troubleshooting and human verification rather than replace network administrators or security professionals.
 
-## Project Structure
+---
+
+## 🎯 Project Objectives
+
+The primary objectives of NetSage AI are:
+
+- 🔍 Identify common network configuration issues
+- 🧠 Provide AI-assisted diagnostic insights
+- 🌐 Validate IP addressing information
+- 🚪 Check gateway and subnet configuration
+- 🔌 Analyze network interface status
+- 🏷️ Identify potential VLAN-related issues
+- 📋 Generate structured diagnostic findings
+- ⚡ Reduce the time required for basic network troubleshooting
+- 👨‍💻 Provide a foundation for intelligent network diagnostics
+
+---
+
+## ✨ Key Features
+
+### 🌐 Network Configuration Analysis
+
+The system analyzes important network configuration parameters, including:
+
+- IP addresses
+- Subnet masks
+- Default gateways
+- Network interfaces
+- VLAN information
+
+---
+
+### 🔍 IP Address Validation
+
+NetSage AI checks whether the provided IP address follows a valid IPv4 format.
+
+Example:
 
 ```text
-NetSage-AI/
-├── checker.py
-├── cases.csv
-├── ai_prompt.txt
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── logs/
-    └── diagnostic_log.txt
+Input IP → 192.168.1.10
+
+Result → ✅ Valid IP Address
